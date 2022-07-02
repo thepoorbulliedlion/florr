@@ -5,7 +5,7 @@ var length = 400;
 var positionX = 1350;
 var positionY = 500;
 var many = 150;
-var speed = 0.3;
+var speed = 0.1;
 var size = 50;
 	
 function draw() {
@@ -84,7 +84,7 @@ function draw() {
 	    ctx.stroke();
     ctx.closePath();
 
-	    test2+=0.1;
+	    test2+=speed;
 };
         
         
